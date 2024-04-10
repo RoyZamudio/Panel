@@ -9,3 +9,5 @@ set(CMAKE_CXX_STANDARD 17)
 set(PICO_BOARD pico_w)
 
 pico_sdk_init()
+
+add_subdirectory(BotonEncendido)

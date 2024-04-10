@@ -170,6 +170,32 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
 
+#=============================================================================
+# Target rules for targets named BotonEncendido
+
+# Build rule for target.
+BotonEncendido: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BotonEncendido
+.PHONY : BotonEncendido
+
+# fast build rule for target.
+BotonEncendido\fast:
+	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\build
+.PHONY : BotonEncendido\fast
+
+#=============================================================================
+# Target rules for targets named ELF2UF2Build
+
+# Build rule for target.
+ELF2UF2Build: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ELF2UF2Build
+.PHONY : ELF2UF2Build
+
+# fast build rule for target.
+ELF2UF2Build\fast:
+	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\ELF2UF2Build.dir\build
+.PHONY : ELF2UF2Build\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,10 +204,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ELF2UF2Build
 	@echo ... PioasmBuild
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... BotonEncendido
 	@echo ... bs2_default
 .PHONY : help
 

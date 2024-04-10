@@ -165,3 +165,7 @@ C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/BotonEncendido.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/ELF2UF2Build.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/edit_cache.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/rebuild_cache.dir

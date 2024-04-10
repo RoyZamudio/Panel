@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						81
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -579,9 +580,9 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						1,
-						2,
-						3
+						3,
+						4,
+						5
 					]
 				},
 				{
@@ -842,8 +843,8 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						0,
-						4
+						2,
+						6
 					]
 				},
 				{
@@ -1008,6 +1009,22 @@
 					"parentIndex" : 1,
 					"projectIndex" : 1,
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/docs"
+				},
+				{
+					"build" : "BotonEncendido",
+					"jsonFile" : "directory-BotonEncendido-Debug-775d07bf41fdba457499.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "BotonEncendido",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1020,9 +1037,15 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						81
 					],
-					"name" : "PanelLavadora"
+					"name" : "PanelLavadora",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
 				},
 				{
 					"directoryIndexes" : 
@@ -1112,16 +1135,30 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0,
-						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 81,
+					"id" : "BotonEncendido::@b5fd64236841da4eb333",
+					"jsonFile" : "target-BotonEncendido-Debug-411af157f1fe9050e500.json",
+					"name" : "BotonEncendido",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "ELF2UF2Build::@b5fd64236841da4eb333",
+					"jsonFile" : "target-ELF2UF2Build-Debug-c9405a326cd85193460d.json",
+					"name" : "ELF2UF2Build",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 66,
 					"id" : "PioasmBuild::@c2fb4f534018e64680d5",
