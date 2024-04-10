@@ -1,0 +1,13 @@
+BOTÓN DE ENCENDIDO / APAGADO - Panel de lavadora
+
+Historia de usuario:
+"Como usuario de una lavadora quiero un boton de encendido que permita apagar o encender la lavadora."
+
+La función del código es apagar y prender un LED mediante un botón push usando una Raspeberry Pi Pico W. Cuando el usuario oprime el botón, el LED se prende, y si lo vuelve a oprimir, se apaga.
+
+Lista de materiales del prototipo:
+- Una tarjeta Raspeberry Pico W
+- 1 LED genérico
+- Un botón push de 2 o 4 pines
+- 1 resistor de 260 Omhs
+- 6 - 8 cables jumper tipo macho-macho
