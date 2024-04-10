@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/pico-sdk/src/rp2_common/boot_stage2",
+  "command": "C:\\PROGRA~2\\GNUARM~1\\102021~1.10\\bin\\AR19DD~1.EXE -DPICO_BOARD=\\\"pico_w\\\" -DPICO_BUILD=1 -DPICO_NO_HARDWARE=0 -DPICO_ON_DEVICE=1 -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\rp2_common\\boot_stage2\\asminclude -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\rp2040\\hardware_regs\\include -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\rp2_common\\hardware_base\\include -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\common\\pico_base\\include -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\PanelLavadora\\build\\generated\\pico_base -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\boards\\include -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\rp2_common\\pico_platform\\include -IC:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\rp2_common\\boot_stage2\\include -mcpu=cortex-m0plus -mthumb -Og -g -o CMakeFiles\\bs2_default.dir\\compile_time_choice.S.obj   -c C:\\Users\\royza\\Documents\\UAM\\Trimestre_24I\\Microcontroladores\\Pico\\pico-sdk\\src\\rp2_common\\boot_stage2\\compile_time_choice.S",
+  "file": "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S",
+  "output": "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+}
+]
