@@ -6,8 +6,51 @@ Historia de usuario:
 La función del código es apagar y prender un LED mediante un botón push usando una Raspeberry Pi Pico W. Cuando el usuario oprime el botón, el LED se prende, y si lo vuelve a oprimir, se apaga.
 
 Lista de materiales del prototipo:
-- Una tarjeta Raspeberry Pico W
+- Una tarjeta Raspeberry Pi Pico W
 - 1 LED genérico
 - Un botón push de 2 o 4 pines
-- 1 resistor de 260 Omhs
+- 1 resistor de 220 Omhs (recomendado)
 - 6 - 8 cables jumper tipo macho-macho
+- Cable Tipo Micro-USB
+
+PASOS PARA EL ENSAMBLE DEL PROTOTIPO EN LA PROTOBOARD
+
+1. Coloca el Botón en la Protoboard:
+    - Inserta el botón pulsador en la protoboard de modo que quede asegurado en su lugar.
+
+2. Conexión a Tierra (GND):
+    - Conecta uno de los pines del botón a una fila de tierra (GND) en la protoboard.
+
+3. Conexión al GPIO (BUTTON_PIN):
+    - Conecta el otro pin del botón a un GPIO específico en la Raspberry Pi Pico W (por ejemplo, GPIO 1). Este será tu BUTTON_PIN.
+
+4. Añadir una Resistencia (Opcional):
+    - Si deseas usar una resistencia pull-up externa en lugar de la interna, conecta una resistencia de 10k ohmios entre el pin del botón (conectado al GPIO) y el voltaje de alimentación (3.3V).
+
+5. Conexión del LED
+    - Inserta el LED en la protoboard, asegurándote de que el cátodo (lado plano del LED o el más corto) esté en el lado negativo.
+
+6. Conexión a Tierra (GND):
+    - Conecta el cátodo (lado corto) del LED a una fila de tierra (GND) en la protoboard.
+
+7. Conexión a través de una Resistencia:
+    - Conecta el ánodo (lado largo) del LED a través de una resistencia limitadora de corriente (por ejemplo, 220 ohmios) a otro GPIO en la Raspberry Pi Pico W (por ejemplo, GPIO 2). Este será tu LED_PIN.
+
+8. Conecta la Raspberry Pi Pico W:
+    - Conecta tu Raspberry Pi Pico W a la protoboard utilizando cables jumper.
+    - Conecta el pin correspondiente al BUTTON_PIN a GPIO 1 en la Raspberry Pi Pico W.
+    - Conecta el pin correspondiente al LED_PIN a GPIO 2 en la Raspberry Pi Pico W.
+
+Verificación y Prueba
+Una vez que hayas completado las conexiones físicas:
+
+VERIFICA LAS CONEXIONES:
+
+    - Asegúrate de que todas las conexiones estén sólidamente establecidas y no haya cortocircuitos.
+
+1. Carga y Ejecuta el Código:
+    - Alimenta la Raspberry Pi Pico W. (Ten en cuenta que al momneto de conectar el cable USB, pulsa el botón que se encuentra en la tarjeta, esto para evitar que otro programa previamente cargado se ejecute.)
+    - Carga tu programa en la Raspberry Pi Pico W, arrastrando el archivo con terminación .uf2 que se encuentra en la carpeta "build".
+    
+2. Prueba el Botón y el LED:
+    - Presiona el botón para verificar si el LED responde correctamente (se enciende y se apaga alternativamente).
