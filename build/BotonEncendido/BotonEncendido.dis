@@ -31,11 +31,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  13 .comment      00000049  00000000  00000000  00008348  2**0
                   CONTENTS, READONLY
- 14 .debug_line   0000f8df  00000000  00000000  00008391  2**0
+ 14 .debug_line   0000f8e1  00000000  00000000  00008391  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_info   00015c3c  00000000  00000000  00017c70  2**0
+ 15 .debug_info   00015c3c  00000000  00000000  00017c72  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_abbrev 000042ea  00000000  00000000  0002d8ac  2**0
+ 16 .debug_abbrev 000042ea  00000000  00000000  0002d8ae  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_aranges 00000dc8  00000000  00000000  00031b98  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -332,7 +332,7 @@ Disassembly of section .text:
 10000310 <main>:
 10000310:	b580      	push	{r7, lr}
 10000312:	b082      	sub	sp, #8
-10000314:	466f      	mov	r7, sp
+10000314:	af00      	add	r7, sp, #0
 10000316:	f003 fe01 	bl	10003f1c <stdio_init_all>
 1000031a:	2001      	movs	r0, #1
 1000031c:	f000 f88a 	bl	10000434 <gpio_init>
@@ -350,34 +350,34 @@ Disassembly of section .text:
 1000033e:	603b      	str	r3, [r7, #0]
 
 10000340 <L2>:
-10000340:	2101      	movs	r1, #1
+10000340:	2001      	movs	r0, #1
 10000342:	f000 f831 	bl	100003a8 <gpio_get_wrapper>
-10000346:	43c8      	mvns	r0, r1
-10000348:	2801      	cmp	r0, #1
-1000034a:	d10f      	bne.n	1000036c <L1>
-1000034c:	683b      	ldr	r3, [r7, #0]
-1000034e:	2b01      	cmp	r3, #1
-10000350:	d106      	bne.n	10000360 <L3>
-10000352:	2200      	movs	r2, #0
-10000354:	2102      	movs	r1, #2
-10000356:	f000 f82e 	bl	100003b6 <gpio_put_wrapper>
-1000035a:	2000      	movs	r0, #0
-1000035c:	6038      	str	r0, [r7, #0]
-1000035e:	e005      	b.n	1000036c <L1>
+10000346:	43c3      	mvns	r3, r0
+10000348:	607b      	str	r3, [r7, #4]
+1000034a:	687b      	ldr	r3, [r7, #4]
+1000034c:	2b01      	cmp	r3, #1
+1000034e:	d10f      	bne.n	10000370 <L1>
+10000350:	683b      	ldr	r3, [r7, #0]
+10000352:	2b01      	cmp	r3, #1
+10000354:	d106      	bne.n	10000364 <L3>
+10000356:	2100      	movs	r1, #0
+10000358:	2002      	movs	r0, #2
+1000035a:	f000 f82c 	bl	100003b6 <gpio_put_wrapper>
+1000035e:	2000      	movs	r0, #0
+10000360:	6038      	str	r0, [r7, #0]
+10000362:	e005      	b.n	10000370 <L1>
 
-10000360 <L3>:
-10000360:	2201      	movs	r2, #1
-10000362:	2102      	movs	r1, #2
-10000364:	f000 f827 	bl	100003b6 <gpio_put_wrapper>
-10000368:	2001      	movs	r0, #1
-1000036a:	6038      	str	r0, [r7, #0]
+10000364 <L3>:
+10000364:	2201      	movs	r2, #1
+10000366:	2102      	movs	r1, #2
+10000368:	f000 f825 	bl	100003b6 <gpio_put_wrapper>
+1000036c:	2001      	movs	r0, #1
+1000036e:	6038      	str	r0, [r7, #0]
 
-1000036c <L1>:
-1000036c:	4804      	ldr	r0, [pc, #16]	; (10000380 <DELAY>)
-1000036e:	f001 f843 	bl	100013f8 <sleep_ms>
-10000372:	e7e5      	b.n	10000340 <L2>
-10000374:	46c0      	nop			; (mov r8, r8)
-10000376:	46c0      	nop			; (mov r8, r8)
+10000370 <L1>:
+10000370:	4803      	ldr	r0, [pc, #12]	; (10000380 <DELAY>)
+10000372:	f001 f841 	bl	100013f8 <sleep_ms>
+10000376:	e7e3      	b.n	10000340 <L2>
 10000378:	46c0      	nop			; (mov r8, r8)
 1000037a:	46c0      	nop			; (mov r8, r8)
 1000037c:	46c0      	nop			; (mov r8, r8)

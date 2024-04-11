@@ -12,7 +12,7 @@ main:
     @prologo 
     push {r7, lr}   @ Guardar los registros r7 y lr en la pila
     sub  sp, 8     @ Reservar espacio en la pila para las variables locales
-    mov  r7, sp     @ Asignar la dirección de la pila al registro r7
+    add  r7, sp, 0     @ Asignar la dirección de la pila al registro r7
 
     @ stdio_init_all();
     bl  stdio_init_all  @ Inicializar todas las funciones de E/S estándar
@@ -46,19 +46,21 @@ main:
 @ Bucle while
 L2:
     @bool boton_oprimido !gpio_get(BUTTON_PIN)) 
-    movs    r1, BUTTON_PIN @ Cargar el valor de BUTTON_PIN en r1
+    movs    r0, BUTTON_PIN @ Cargar el valor de BUTTON_PIN en r1
     bl      gpio_get_wrapper  @ Llamar a la función gpio_get_wrapper
-    mvns     r0, r1           @ Invertir el estado del botón (activo bajo)
+    mvns    r3, r0           @ Invertir el estado del botón (activo bajo)
+    str     r3, [r7, 4]
     @ if (boton_oprimido)
-    cmp     r0, 1           @ Comparar el resultado con 1
+    ldr     r3, [r7, 4]
+    cmp     r3, 1           @ Comparar el resultado con 1
     bne     L1
     @ if (led_encendido) 
     ldr     r3, [r7, 0]
     cmp     r3, 1
     bne     L3
     @ gpio_put(LED_PIN, 0);
-    movs    r2, 0
-    movs    r1, LED_PIN
+    movs    r1, 0
+    movs    r0, LED_PIN
     bl      gpio_put_wrapper
     @ led_encendido = false;
     movs    r0, 0
