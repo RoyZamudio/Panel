@@ -46,7 +46,7 @@ main:
 @ Bucle while
 L2:
     @bool boton_oprimido !gpio_get(BUTTON_GPIO)) 
-    movs    r1, BUTTON_GPIO @ Cargar el valor de BUTTON_GPIO en r0
+    movs    r1, BUTTON_PIN @ Cargar el valor de BUTTON_GPIO en r0
     bl      gpio_get_wrapper  @ Llamar a la función gpio_get_wrapper
     cmp     r1, 0           @ Comparar el resultado con 0
     bne     L1
