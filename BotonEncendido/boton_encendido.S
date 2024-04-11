@@ -11,7 +11,7 @@
 main:
     @prologo 
     push {r7, lr}   @ Guardar los registros r7 y lr en la pila
-    sub  sp, 8     @ Reservar espacio en la pila para las variables locales
+    sub  sp, 16     @ Reservar espacio en la pila para las variables locales
     add  r7, sp, 0     @ Asignar la dirección de la pila al registro r7
 
     @ stdio_init_all();
