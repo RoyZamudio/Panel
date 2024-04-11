@@ -1,6 +1,7 @@
-BotonEncendido\CMakeFiles\BotonEncendido.dir\C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
+BotonEncendido\CMakeFiles\BotonEncendido.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio\include/pico/stdio/driver.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio\include/pico/stdio.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include/pico/assert.h \
@@ -30,12 +31,16 @@ BotonEncendido\CMakeFiles\BotonEncendido.dir\C_\Users\royza\Documents\UAM\Trimes
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include/pico/error.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio\include/pico/stdio.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_time\include/pico/time.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_timer\include/hardware/timer.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/timer.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_uart\include/hardware/uart.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_base\include/hardware/address_mapped.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/timer.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/defs.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/structure.h \
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/code.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_gpio\include/hardware/gpio.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/sio.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/interp.h \
@@ -45,15 +50,4 @@ BotonEncendido\CMakeFiles\BotonEncendido.dir\C_\Users\royza\Documents\UAM\Trimes
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/io_bank0.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_irq\include/hardware/irq.h \
  C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/intctrl.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/m0plus.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_uart\include/hardware/uart.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_pll\include/hardware/pll.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pll.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pll.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
- C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h
+ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/m0plus.h
