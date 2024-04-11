@@ -1083,9 +1083,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cchi7oFc.o
- .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cchi7oFc.o
- .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cchi7oFc.o
+ .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc8efO25.o
+ .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc8efO25.o
+ .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc8efO25.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1301,7 +1301,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\cchi7oFc.o
+ .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\cc8efO25.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2266,7 +2266,7 @@ LOAD CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontrol
 LOAD CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\royza\AppData\Local\Temp\cchi7oFc.o
+LOAD C:\Users\royza\AppData\Local\Temp\cc8efO25.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2359,7 +2359,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000058c       0x2c CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x000005b8       0x22 C:\Users\royza\AppData\Local\Temp\cchi7oFc.o
+                0x000005b8       0x22 C:\Users\royza\AppData\Local\Temp\cc8efO25.o
  .ARM.attributes
                 0x000005da       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2392,40 +2392,40 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000     0xf8e0
- .debug_line    0x00000000       0xc9 CMakeFiles/BotonEncendido.dir/boton_encendido.S.obj
- .debug_line    0x000000c9      0x46d CMakeFiles/BotonEncendido.dir/common/sdk_inlines.c.obj
- .debug_line    0x00000536      0xe13 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001349      0x2fd CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001646      0x51e CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001b64      0x51b CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000207f     0x11bd CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000323c      0x2d2 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x0000350e     0x11e8 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000046f6     0x1d71 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00006467      0xda9 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00007210      0x8fa CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007b0a      0xa67 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00008571      0xbb5 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00009126      0x687 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000097ad      0x48a CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00009c37      0x32e CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00009f65      0xce7 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000ac4c     0x1249 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000be95      0x178 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000c00d      0x285 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000c292      0x301 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000c593      0x451 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000c9e4      0x408 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000cdec       0xc2 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000ceae       0xc8 CMakeFiles/BotonEncendido.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000cf76      0x400 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000d376      0x3d0 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000d746       0xf2 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000d838      0x100 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000d938      0x240 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000db78     0x1099 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000ec11      0xccf CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000     0xf8df
+ .debug_line    0x00000000       0xc8 CMakeFiles/BotonEncendido.dir/boton_encendido.S.obj
+ .debug_line    0x000000c8      0x46d CMakeFiles/BotonEncendido.dir/common/sdk_inlines.c.obj
+ .debug_line    0x00000535      0xe13 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001348      0x2fd CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00001645      0x51e CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001b63      0x51b CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000207e     0x11bd CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000323b      0x2d2 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000350d     0x11e8 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000046f5     0x1d71 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00006466      0xda9 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000720f      0x8fa CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007b09      0xa67 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00008570      0xbb5 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00009125      0x687 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000097ac      0x48a CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00009c36      0x32e CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00009f64      0xce7 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000ac4b     0x1249 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000be94      0x178 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000c00c      0x285 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000c291      0x301 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000c592      0x451 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000c9e3      0x408 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000cdeb       0xc2 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000cead       0xc8 CMakeFiles/BotonEncendido.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000cf75      0x400 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000d375      0x3d0 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000d745       0xf2 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000d837      0x100 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000d937      0x240 CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000db77     0x1099 CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000ec10      0xccf CMakeFiles/BotonEncendido.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_info     0x00000000    0x15c3c
  .debug_info    0x00000000       0x26 CMakeFiles/BotonEncendido.dir/boton_encendido.S.obj
