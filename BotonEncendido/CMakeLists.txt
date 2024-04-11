@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
 
 add_executable(BotonEncendido
-    boton_encendido.c
+    boton_encendido.S
+    common/sdk_inlines.c
 )
 
 target_link_libraries(BotonEncendido pico_stdlib)

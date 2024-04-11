@@ -81,8 +81,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/BotonEncendido.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "CMakeFiles/BotonEncendido.dir/boton_encendido.c.obj"
-  "CMakeFiles/BotonEncendido.dir/boton_encendido.c.obj.d"
+  "CMakeFiles/BotonEncendido.dir/boton_encendido.S.obj"
+  "CMakeFiles/BotonEncendido.dir/common/sdk_inlines.c.obj"
+  "CMakeFiles/BotonEncendido.dir/common/sdk_inlines.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

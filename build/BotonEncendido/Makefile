@@ -1281,35 +1281,45 @@ C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build\BotonEncendido
 .PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 
-boton_encendido.obj: boton_encendido.c.obj
+boton_encendido.obj: boton_encendido.S.obj
 .PHONY : boton_encendido.obj
 
 # target to build an object file
-boton_encendido.c.obj:
+boton_encendido.S.obj:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build
-	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\boton_encendido.c.obj
+	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\boton_encendido.S.obj
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build\BotonEncendido
-.PHONY : boton_encendido.c.obj
+.PHONY : boton_encendido.S.obj
 
-boton_encendido.i: boton_encendido.c.i
-.PHONY : boton_encendido.i
+common\sdk_inlines.obj: common\sdk_inlines.c.obj
+.PHONY : common\sdk_inlines.obj
+
+# target to build an object file
+common\sdk_inlines.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build
+	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\common\sdk_inlines.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build\BotonEncendido
+.PHONY : common\sdk_inlines.c.obj
+
+common\sdk_inlines.i: common\sdk_inlines.c.i
+.PHONY : common\sdk_inlines.i
 
 # target to preprocess a source file
-boton_encendido.c.i:
+common\sdk_inlines.c.i:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build
-	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\boton_encendido.c.i
+	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\common\sdk_inlines.c.i
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build\BotonEncendido
-.PHONY : boton_encendido.c.i
+.PHONY : common\sdk_inlines.c.i
 
-boton_encendido.s: boton_encendido.c.s
-.PHONY : boton_encendido.s
+common\sdk_inlines.s: common\sdk_inlines.c.s
+.PHONY : common\sdk_inlines.s
 
 # target to generate assembly for a file
-boton_encendido.c.s:
+common\sdk_inlines.c.s:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build
-	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\boton_encendido.c.s
+	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\BotonEncendido.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\BotonEncendido.dir\common\sdk_inlines.c.s
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\PanelLavadora\build\BotonEncendido
-.PHONY : boton_encendido.c.s
+.PHONY : common\sdk_inlines.c.s
 
 # Help Target
 help:
@@ -1435,8 +1445,9 @@ help:
 	@echo ... C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 	@echo ... boton_encendido.obj
-	@echo ... boton_encendido.i
-	@echo ... boton_encendido.s
+	@echo ... common/sdk_inlines.obj
+	@echo ... common/sdk_inlines.i
+	@echo ... common/sdk_inlines.s
 .PHONY : help
 
 
