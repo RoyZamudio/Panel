@@ -44,42 +44,34 @@ main:
     str r3, [r7, 0] @ Almacenar el valor de r3 en la pila
 
 @ Bucle while
-L2:
+LW:
     @bool boton_oprimido !gpio_get(BUTTON_PIN)) 
     movs    r0, BUTTON_PIN @ Cargar el valor de BUTTON_PIN en r1
     bl      gpio_get_wrapper  @ Llamar a la función gpio_get_wrapper
     mvns    r3, r0           @ Invertir el estado del botón (activo bajo)
     str     r3, [r7, 4]
-    @ if (boton_oprimido)
-    ldr     r3, [r7, 4]
-    cmp     r3, 1           @ Comparar el resultado con 1
-    bne     L1
-    @ if (led_encendido) 
-    ldr     r3, [r7, 0]
+    @ Comprobar si el botón está pulsado (estado invertido)
+    ldr     r3, [r7, 4]       @ Cargar el estado del botón desde la pila
     cmp     r3, 1
-    bne     L3
-    @ gpio_put(LED_PIN, 0);
-    movs    r1, 0
+    bne     LW                 @ Repetir si el botón no está pulsado
+    @ Cambiar el estado del LED
+    @ led_encendido = !led_encendido
+    ldr     r3, [r7, 0]       @ Cargar el estado del LED desde la pila
+    movs    r4, 1
+    mvns    r0, r4
+    ands    r3, r3, r0
+    str     r3, [r7, 0]       @ Almacenar el nuevo estado del LED en la pila
+    @ Encender o apagar el LED
+    @ gpio_put(LED_PIN, led_encendido)
+    ldr     r1, [r7, 0]       @ Cargar el estado del LED desde la pila
     movs    r0, LED_PIN
-    bl      gpio_put_wrapper
-    @ led_encendido = false;
-    movs    r0, 0
-    str     r0, [r7, 0]
-    b       L1
-L3:
-    @else gpio_put(LED_PIN, 1);
-    movs    r2, 1
-    movs    r1, LED_PIN
-    bl      gpio_put_wrapper
-    @ led_encendido = true;
-    movs    r0, 1
-    str     r0, [r7, 0]
-L1:
-    @ sleep_ms(500);
-    ldr     r0, DELAY       @ Cargar el valor de la constante DELAY en r0
-    bl      sleep_ms        @ Llamar a la función sleep_ms
+    bl      gpio_put_wrapper  @ Encender o apagar el LED según el estado
+    @ sleep_ms(500)
+    ldr     r0, DELAY         @ Cargar el valor de DELAY en r0
+    bl      sleep_ms          @ Llamar a la función sleep_ms
+    b       LW   
     @ Volver al inicio del bucle while (L2)
-    b L2
+    b LW
 
 .align 4
 DELAY: .word 500  @ Definir la constante DELAY con valor 500 (ms)
