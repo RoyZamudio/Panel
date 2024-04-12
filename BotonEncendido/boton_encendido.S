@@ -5,8 +5,8 @@
 .syntax unified 
 .thumb_func
 
-.equ BUTTON_GPIO, 2 @ #define BUTTON_PIN 1
-.equ LED_GPIO, 3 @ #define LED_PIN 2
+.equ BUTTON_GPIO, 2 @ #define BUTTON_PIN 2
+.equ LED_GPIO, 3 @ #define LED_PIN 3
 
 @ Este código controla mediante un botón PUSH un LED. Si se oprime una vez, el LED se encienda, y si se presiona nuevamente, se apaga.
 
@@ -79,13 +79,13 @@ L3:
     cmp     r3, 0
     bne     L4                @ Saltar a L4 si el LED está encendido
 
-    @ LED apagado: setear led_encendido a true (1)
+    @ LED apagado: Establecer led_encendido a true (1)
     movs    r4, 1
     str     r4, [r7, 0]
     b       L5                @ Saltar a L5
 
 L4:
-    @ LED encendido: setear led_encendido a false (0)
+    @ LED encendido: Establecer led_encendido a false (0)
     ldr     r3, [r7, 0]
     movs    r3, 0
     str     r3, [r7, 0]
