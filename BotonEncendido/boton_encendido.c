@@ -21,14 +21,14 @@ int main() {
     bool led_encendido = false; // Variable para rastrear el estado del LED
 
     while (true) {
-        // Leer el estado del botón (activo bajo debido al pull-up)
-        bool boton_oprimido = !gpio_get(BUTTON_PIN);
+        // Leer el estado del botón
+        bool boton_pulsado = !gpio_get(BUTTON_PIN);
 
-        // Si se detecta un pulso de botón (botón presionado), cambiar el estado del LED
-        if (boton_oprimido) {
-            led_encendido = !led_encendido;  // Cambiar el estado del LED (encender/apagar)
-            gpio_put(LED_PIN, led_encendido ? 1 : 0);  // Encender o apagar el LED según el estado
-            sleep_ms(500);  // Pequeña pausa para evitar rebotes del botón
+        if (boton_pulsado) {
+            // Cambiar el estado del LED
+            led_encendido = !led_encendido;
+            gpio_put(LED_PIN, led_encendido); // Encender o apagar el LED
+            sleep_ms(500); // Pequeña pausa para evitar rebotes
         }
     }
 }

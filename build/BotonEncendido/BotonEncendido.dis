@@ -331,7 +331,7 @@ Disassembly of section .text:
 
 10000310 <main>:
 10000310:	b580      	push	{r7, lr}
-10000312:	b082      	sub	sp, #8
+10000312:	b084      	sub	sp, #16
 10000314:	af00      	add	r7, sp, #0
 10000316:	f003 fe01 	bl	10003f1c <stdio_init_all>
 1000031a:	2001      	movs	r0, #1
