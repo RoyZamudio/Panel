@@ -377,7 +377,7 @@ Disassembly of section .text:
 
 1000036a <L4>:
 1000036a:	683b      	ldr	r3, [r7, #0]
-1000036c:	2301      	movs	r3, #1
+1000036c:	2300      	movs	r3, #0
 1000036e:	603b      	str	r3, [r7, #0]
 
 10000370 <L5>:

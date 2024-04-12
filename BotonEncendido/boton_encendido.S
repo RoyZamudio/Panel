@@ -8,6 +8,8 @@
 .equ BUTTON_GPIO, 2 @ #define BUTTON_PIN 1
 .equ LED_GPIO, 3 @ #define LED_PIN 2
 
+@ Este código controla mediante un botón PUSH un LED. Si se oprime una vez, el LED se encienda, y si se presiona nuevamente, se apaga.
+
 main:
     @prologo 
     push {r7, lr}   @ Guardar los registros r7 y lr en la pila
@@ -45,46 +47,61 @@ main:
 
 @ Bucle while
 L1:
-    @bool boton_oprimido = !gpio_get(BUTTON_GPIO)) 
-    movs    r0, BUTTON_GPIO @ Cargar el valor de BUTTON_GPIO en r0
+    @ Leer el estado del botón y asignar a boton_oprimido
+    movs    r0, BUTTON_GPIO   @ Cargar el valor de BUTTON_GPIO en r0
     bl      gpio_get_wrapper  @ Llamar a la función gpio_get_wrapper
-    str     r0, [r7, 8]
+    str     r0, [r7, 8]       @ Almacenar el estado del botón en la pila
+
+    @ Comprobar si el botón está pulsado
     ldr     r0, [r7, 8]
     cmp     r0, 0
-    bne     L2
+    bne     L2                @ Saltar a L2 si el botón está pulsado
+
+    @ Botón no pulsado: Establecer boton_oprimido a true (1)
     movs    r3, 1
     str     r3, [r7, 4]
-    b       L3
+    b       L3                @ Saltar a L3
+
 L2:
+    @ Botón pulsado: Establecer boton_oprimido a false (0)
     movs    r3, 0
     str     r3, [r7, 4]
+
 L3:
     @ Comprobar si el botón está pulsado (estado invertido)
     ldr     r3, [r7, 4]       @ Cargar el estado del botón desde la pila
     cmp     r3, 1
     bne     L1                 @ Repetir si el botón no está pulsado
+
     @ Cambiar el estado del LED
-    @ led_encendido = !led_encendido
+    @ Leer el estado actual del LED (led_encendido)
     ldr     r3, [r7, 0]
     cmp     r3, 0
-    bne     L4
+    bne     L4                @ Saltar a L4 si el LED está encendido
+
+    @ LED apagado: setear led_encendido a true (1)
     movs    r4, 1
     str     r4, [r7, 0]
-    b       L5
+    b       L5                @ Saltar a L5
+
 L4:
+    @ LED encendido: setear led_encendido a false (0)
     ldr     r3, [r7, 0]
-    movs    r3, 1
+    movs    r3, 0
     str     r3, [r7, 0]
+
 L5:
     @ Encender o apagar el LED
-    @ gpio_put(LED_GPIO, led_encendido)
-    ldr     r1, [r7, 0]       @ Cargar el estado del LED desde la pila
+    @ Cargar el estado del LED desde la pila
+    ldr     r1, [r7, 0]
     movs    r0, LED_GPIO
     bl      gpio_put_wrapper  @ Encender o apagar el LED según el estado
-    @ sleep_ms(500)
+
+    @ Esperar 500 ms
     ldr     r0, DELAY         @ Cargar el valor de DELAY en r0
-    bl      sleep_ms          @ Llamar a la función sleep_ms  
-    @ Volver al inicio del bucle while (LW)
+    bl      sleep_ms          @ Llamar a la función sleep_ms
+
+    @ Volver al inicio del bucle while (L1)
     b L1
 
 .align 4
