@@ -45,11 +45,11 @@ main:
 
 @ Bucle while
 LW:
-    @bool boton_oprimido !gpio_get(BUTTON_GPIO)) 
-    movs    r0, BUTTON_GPIO @ Cargar el valor de BUTTON_PIN en r1
+    @bool boton_oprimido = !gpio_get(BUTTON_GPIO)) 
+    movs    r0, BUTTON_GPIO @ Cargar el valor de BUTTON_GPIO en r0
     bl      gpio_get_wrapper  @ Llamar a la función gpio_get_wrapper
-    mvns    r3, r0           @ Invertir el estado del botón (activo bajo)
-    str     r3, [r7, 4]
+    mvns    r0, r0           @ Invertir el estado del botón (activo bajo)
+    str     r0, [r7, 4]
     @ Comprobar si el botón está pulsado (estado invertido)
     ldr     r3, [r7, 4]       @ Cargar el estado del botón desde la pila
     cmp     r3, 1
@@ -57,7 +57,9 @@ LW:
     @ Cambiar el estado del LED
     @ led_encendido = !led_encendido
     ldr     r3, [r7, 0]       @ Cargar el estado del LED desde la pila
-
+    movs    r4, 1
+    eors    r3, r3, r4
+    str     r3, [r7, 0]
     @ Encender o apagar el LED
     @ gpio_put(LED_GPIO, led_encendido)
     ldr     r1, [r7, 0]       @ Cargar el estado del LED desde la pila
