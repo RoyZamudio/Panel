@@ -42,6 +42,27 @@ int main() {
     int indice3 = 0;
 
     while (true) {
-
+        if (!gpio_get(BOTON_GPIO1)) {
+            // Botón de secuencia de lavar presionado
+            int32_t mascara = secLavar[indice1 % 4] << PRIMER_GPIO;
+            gpio_set_mask(mascara);      // Activar segmentos según la máscara
+            sleep_ms(250);               // Esperar un tiempo
+            gpio_clr_mask(mascara);      // Apagar segmentos
+            indice1++;                   // Avanzar al siguiente paso de la secuencia
+        } else if (!gpio_get(BOTON_GPIO2)) {
+            // Botón de secuencia de enjuagar presionado
+            int32_t mascara = secEnjuagar[indice2 % 8] << PRIMER_GPIO;
+            gpio_set_mask(mascara);      // Activar segmentos según la máscara
+            sleep_ms(250);               // Esperar un tiempo
+            gpio_clr_mask(mascara);      // Apagar segmentos
+            indice2++;                   // Avanzar al siguiente paso de la secuencia
+        } else if (!gpio_get(BOTON_GPIO3)) {
+            // Botón de secuencia de centrifugar presionado
+            int32_t mascara = secCentrifugar[indice3 % 6] << PRIMER_GPIO;
+            gpio_set_mask(mascara);      // Activar segmentos según la máscara
+            sleep_ms(250);               // Esperar un tiempo
+            gpio_clr_mask(mascara);      // Apagar segmentos
+            indice3++;                   // Avanzar al siguiente paso de la secuencia
+        }
     }
 }
