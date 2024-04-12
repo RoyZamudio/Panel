@@ -24,4 +24,24 @@ int main() {
         gpio_set_dir(gpio, GPIO_OUT);
         gpio_set_outover(gpio, GPIO_OVERRIDE_INVERT);
     }
+
+    gpio_init(BOTON_GPIO1);
+    gpio_set_dir(BOTON_GPIO1, GPIO_IN);
+    gpio_pull_up(BOTON_GPIO1); // Activar pull-up en el botón
+
+    gpio_init(BOTON_GPIO2);
+    gpio_set_dir(BOTON_GPIO2, GPIO_IN);
+    gpio_pull_up(BOTON_GPIO2); // Activar pull-up en el botón
+
+    gpio_init(BOTON_GPIO3);
+    gpio_set_dir(BOTON_GPIO3, GPIO_IN);
+    gpio_pull_up(BOTON_GPIO3); // Activar pull-up en el botón
+
+    int indice1 = 0;
+    int indice2 = 0;
+    int indice3 = 0;
+
+    while (true) {
+
+    }
 }
