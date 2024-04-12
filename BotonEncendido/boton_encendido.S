@@ -80,12 +80,18 @@ L3:
     bne     L4                @ Saltar a L4 si el LED está encendido
 
     @ LED apagado: Establecer led_encendido a true (1)
+    @ printf("Lavadora encendida");
+    ldr     r0, =MSG1       @ Cargar la dirección de la cadena de caracteres en r0
+    bl      printf          @ Llamar a la función printf
     movs    r4, 1
     str     r4, [r7, 0]
     b       L5                @ Saltar a L5
 
 L4:
     @ LED encendido: Establecer led_encendido a false (0)
+    @ printf("Lavadora apagada");
+    ldr     r0, =MSG2       @ Cargar la dirección de la cadena de caracteres en r0
+    bl      printf          @ Llamar a la función printf
     ldr     r3, [r7, 0]
     movs    r3, 0
     str     r3, [r7, 0]
@@ -106,3 +112,5 @@ L5:
 
 .align 4
 DELAY: .word 500  @ Definir la constante DELAY con valor 500 (ms)
+MSG1: .ascii "Lavadora encendida\012\000"
+MSG2: .ascii "Lavadora apagada\012\000"
