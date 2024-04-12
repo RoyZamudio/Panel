@@ -8,9 +8,9 @@
 #define BOTON_GPIO3 13 // Botón para la animación 'S'
 
 // Arreglos para definir las diferentes secuencias para cada botón
-int secLavar[6] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20};       // Secuencia de animación circular
+int secLavar[4] = {0x01, 0x22, 0x14, 0x08};                             //Secuencia como en cascáda       
 int secEnjuagar[8] = {0x01, 0x02, 0x40, 0x10, 0x08, 0x04, 0x40, 0x20 };  // Secuencia de animación de infinito
-int secCentrifugar[] = {};        // Secuencia de animación 'S'
+int secCentrifugar[6] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20};       // Secuencia de animación circular
 
 
 int main() {
