@@ -169,3 +169,6 @@ C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/ELF2UF2Build.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/BotonEncendido/CMakeFiles/rebuild_cache.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/DisplayFases/CMakeFiles/DisplayFases.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/DisplayFases/CMakeFiles/edit_cache.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/PanelLavadora/build/DisplayFases/CMakeFiles/rebuild_cache.dir

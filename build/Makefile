@@ -196,6 +196,19 @@ ELF2UF2Build\fast:
 	$(MAKE) $(MAKESILENT) -f BotonEncendido\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) BotonEncendido\CMakeFiles\ELF2UF2Build.dir\build
 .PHONY : ELF2UF2Build\fast
 
+#=============================================================================
+# Target rules for targets named DisplayFases
+
+# Build rule for target.
+DisplayFases: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DisplayFases
+.PHONY : DisplayFases
+
+# fast build rule for target.
+DisplayFases\fast:
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\build
+.PHONY : DisplayFases\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,6 +223,7 @@ help:
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... BotonEncendido
+	@echo ... DisplayFases
 	@echo ... bs2_default
 .PHONY : help
 

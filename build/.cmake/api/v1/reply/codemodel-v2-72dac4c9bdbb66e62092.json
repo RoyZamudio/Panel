@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						81
+						81,
+						82
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -580,9 +581,9 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						3,
 						4,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -843,8 +844,8 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						2,
-						6
+						3,
+						7
 					]
 				},
 				{
@@ -1023,6 +1024,21 @@
 					"targetIndexes" : 
 					[
 						0,
+						2
+					]
+				},
+				{
+					"build" : "DisplayFases",
+					"jsonFile" : "directory-DisplayFases-Debug-2aae97e4123ea48e840c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DisplayFases",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -1038,13 +1054,15 @@
 					"directoryIndexes" : 
 					[
 						0,
-						81
+						81,
+						82
 					],
 					"name" : "PanelLavadora",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				},
 				{
@@ -1135,11 +1153,11 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2,
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -1150,6 +1168,13 @@
 					"id" : "BotonEncendido::@b5fd64236841da4eb333",
 					"jsonFile" : "target-BotonEncendido-Debug-bf856013b3d42ab26337.json",
 					"name" : "BotonEncendido",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "DisplayFases::@2f172160c0af39e426ab",
+					"jsonFile" : "target-DisplayFases-Debug-6fb19134df4fabe9ea5e.json",
+					"name" : "DisplayFases",
 					"projectIndex" : 0
 				},
 				{
