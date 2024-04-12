@@ -15,5 +15,13 @@ int secCentrifugar[6] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20};       // Secuencia
 
 int main() {
     stdio_init_all();
- 
+    
+    printf("Control de secuencia en display de 7 segmentos\n");
+
+    // Configurar GPIOs para segmentos y botones
+    for (int gpio = PRIMER_GPIO; gpio < PRIMER_GPIO + 7; gpio++) {
+        gpio_init(gpio);
+        gpio_set_dir(gpio, GPIO_OUT);
+        gpio_set_outover(gpio, GPIO_OVERRIDE_INVERT);
+    }
 }
