@@ -1079,9 +1079,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccLOUy8r.o
- .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccLOUy8r.o
- .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccLOUy8r.o
+ .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccD3UZmZ.o
+ .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccD3UZmZ.o
+ .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccD3UZmZ.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1297,11 +1297,11 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\ccLOUy8r.o
+ .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\ccD3UZmZ.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x4160
+.text           0x10000100     0x4178
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1362,393 +1362,394 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x100002b8                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.main     0x10000304      0x12c CMakeFiles/DisplayFases.dir/display_fases.c.obj
+ .text.main     0x10000304      0x140 CMakeFiles/DisplayFases.dir/display_fases.c.obj
                 0x10000304                main
  .text.gpio_set_function
-                0x10000430       0x30 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000430                gpio_set_function
+                0x10000444       0x30 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000444                gpio_set_function
  .text.gpio_set_pulls
-                0x10000460       0x34 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000460                gpio_set_pulls
+                0x10000474       0x34 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000474                gpio_set_pulls
  .text.gpio_set_outover
-                0x10000494       0x24 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000494                gpio_set_outover
+                0x100004a8       0x24 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004a8                gpio_set_outover
  .text.gpio_init
-                0x100004b8       0x16 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004b8                gpio_init
- *fill*         0x100004ce        0x2 
+                0x100004cc       0x16 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004cc                gpio_init
+ *fill*         0x100004e2        0x2 
  .text.running_on_fpga
-                0x100004d0       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100004d0                running_on_fpga
+                0x100004e4       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100004e4                running_on_fpga
  .text.hw_claim_lock
-                0x100004e4       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004e4                hw_claim_lock
+                0x100004f8       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100004f8                hw_claim_lock
  .text.hw_claim_unlock
-                0x100004fc       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004fc                hw_claim_unlock
+                0x10000510       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000510                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x10000510       0x32 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000510                hw_claim_or_assert
- *fill*         0x10000542        0x2 
+                0x10000524       0x32 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000524                hw_claim_or_assert
+ *fill*         0x10000556        0x2 
  .text.spin_locks_reset
-                0x10000544       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000544                spin_locks_reset
+                0x10000558       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000558                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000564       0x1c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000564                next_striped_spin_lock_num
+                0x10000578       0x1c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000578                next_striped_spin_lock_num
  .text.set_raw_irq_handler_and_unlock
-                0x10000580       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000594       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x100005a8       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005bc       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x100005f0       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000604       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x10000630       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000630                irq_is_enabled
+                0x10000644       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000644                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x10000648       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000648                irq_set_mask_enabled
+                0x1000065c       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000065c                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x10000668        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000668                irq_set_enabled
- *fill*         0x10000676        0x2 
+                0x1000067c        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000067c                irq_set_enabled
+ *fill*         0x1000068a        0x2 
  .text.irq_get_vtable_handler
-                0x10000678       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000678                irq_get_vtable_handler
+                0x1000068c       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000068c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000688       0x54 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000688                irq_set_exclusive_handler
+                0x1000069c       0x54 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000069c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100006dc      0x1ac CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100006dc                irq_remove_handler
+                0x100006f0      0x1ac CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100006f0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000888       0xf0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000888                irq_add_tail_to_free_list
+                0x1000089c       0xf0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000089c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000978       0x1c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000978                irq_init_priorities
+                0x1000098c       0x1c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000098c                irq_init_priorities
  .text.lock_init
-                0x10000994       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000994                lock_init
+                0x100009a8       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100009a8                lock_init
  .text.mutex_init
-                0x100009a4       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100009a4                mutex_init
+                0x100009b8       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100009b8                mutex_init
  .text.recursive_mutex_init
-                0x100009be       0x1e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100009be                recursive_mutex_init
+                0x100009d2       0x1e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100009d2                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x100009dc       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009f0       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x10000a1c       0x30 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a30       0x30 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x10000a4c       0x7c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000a4c                timer_pool_entry_comparator
+                0x10000a60       0x7c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a60                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x10000ac8       0xa4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000adc       0xa4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x10000b6c       0x3e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000baa        0x2 
+                0x10000b80       0x3e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000bbe        0x2 
  .text.add_alarm_under_lock
-                0x10000bac      0x174 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bc0      0x174 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000d20      0x33c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000d34      0x33c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x1000105c       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000105c                alarm_pool_init_default
+                0x10001070       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001070                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x1000109c       0x2c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000109c                alarm_pool_get_default
+                0x100010b0       0x2c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010b0                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x100010c8      0x168 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100010c8                alarm_pool_add_alarm_at
+                0x100010dc      0x168 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010dc                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x10001230       0xf8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001230                alarm_pool_cancel_alarm
+                0x10001244       0xf8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001244                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x10001328       0xfc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001328                sleep_until
+                0x1000133c       0xfc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000133c                sleep_until
  .text.sleep_us
-                0x10001424       0x58 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001424                sleep_us
+                0x10001438       0x58 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001438                sleep_us
  .text.sleep_ms
-                0x1000147c       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000147c                sleep_ms
+                0x10001490       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001490                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001490       0xac CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001490                best_effort_wfe_or_timeout
+                0x100014a4       0xac CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100014a4                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x1000153c       0x90 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001550       0x90 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x100015cc       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100015cc                hardware_alarm_claim
+                0x100015e0       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100015e0                hardware_alarm_claim
  .text.time_us_64
-                0x100015e4       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100015e4                time_us_64
+                0x100015f8       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100015f8                time_us_64
  .text.busy_wait_until
-                0x100015fc       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100015fc                busy_wait_until
+                0x10001610       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001610                busy_wait_until
  .text.busy_wait_us
-                0x10001624       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001624                busy_wait_us
+                0x10001638       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001638                busy_wait_us
  .text.hardware_alarm_set_callback
-                0x1000166c       0x90 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000166c                hardware_alarm_set_callback
+                0x10001680       0x90 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001680                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100016fc       0xe8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100016fc                hardware_alarm_set_target
+                0x10001710       0xe8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001710                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x100017e4       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017e4                hardware_alarm_cancel
+                0x100017f8       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017f8                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x10001824       0xa4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001838       0xa4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x100018c8       0x3e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10001906        0x2 
+                0x100018dc       0x3e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000191a        0x2 
  .text.ph_clear
-                0x10001908       0x70 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001908                ph_clear
+                0x1000191c       0x70 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000191c                ph_clear
  .text.ph_post_alloc_init
-                0x10001978        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001978                ph_post_alloc_init
- *fill*         0x10001986        0x2 
+                0x1000198c        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000198c                ph_post_alloc_init
+ *fill*         0x1000199a        0x2 
  .text.ph_merge_two_pass
-                0x10001988       0xa8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001988                ph_merge_two_pass
+                0x1000199c       0xa8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000199c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001a30      0x128 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a44      0x128 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001b58       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001b58                ph_remove_head
+                0x10001b6c       0x14 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b6c                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001b6c       0xf8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001b6c                ph_remove_and_free_node
+                0x10001b80       0xf8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b80                ph_remove_and_free_node
  .text.uart_disable_before_lcr_write
-                0x10001c64       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001c78       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_write_lcr_bits_masked
-                0x10001cac       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- *fill*         0x10001cce        0x2 
+                0x10001cc0       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ *fill*         0x10001ce2        0x2 
  .text.uart_set_baudrate
-                0x10001cd0       0x5c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001cd0                uart_set_baudrate
+                0x10001ce4       0x5c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001ce4                uart_set_baudrate
  .text.uart_set_format
-                0x10001d2c       0x2c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001d2c                uart_set_format
+                0x10001d40       0x2c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001d40                uart_set_format
  .text.uart_set_translate_crlf
-                0x10001d58       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001d58                uart_set_translate_crlf
+                0x10001d6c       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001d6c                uart_set_translate_crlf
  .text.uart_init
-                0x10001d80       0x80 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001d80                uart_init
+                0x10001d94       0x80 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001d94                uart_init
  .text.clock_configure
-                0x10001e00      0x108 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001e00                clock_configure
+                0x10001e14      0x108 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001e14                clock_configure
  .text.clocks_init
-                0x10001f08      0x100 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001f08                clocks_init
+                0x10001f1c      0x100 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001f1c                clocks_init
  .text.clock_get_hz
-                0x10002008        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002008                clock_get_hz
+                0x1000201c        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000201c                clock_get_hz
  .text.pll_init
-                0x10002014      0x120 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002014                pll_init
+                0x10002028      0x120 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10002028                pll_init
  .text.watchdog_start_tick
-                0x10002134       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002134                watchdog_start_tick
+                0x10002148       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002148                watchdog_start_tick
  .text.xosc_init
-                0x10002144       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10002144                xosc_init
- .text._exit    0x1000216c        0x4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000216c                _exit
- .text.exit     0x10002170        0x6 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002170                exit
- *fill*         0x10002176        0x2 
+                0x10002158       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002158                xosc_init
+ .text._exit    0x10002180        0x4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002180                _exit
+ .text.exit     0x10002184        0x6 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002184                exit
+ *fill*         0x1000218a        0x2 
  .text.__assert_func
-                0x10002178       0x3c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002178                __assert_func
+                0x1000218c       0x3c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000218c                __assert_func
  .text.runtime_init
-                0x100021b4       0xf8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100021b4                runtime_init
- .text.panic    0x100022ac       0x30 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100022ac                panic
+                0x100021c8       0xf8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100021c8                runtime_init
+ .text.panic    0x100022c0       0x30 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100022c0                panic
  .text._out_null
-                0x100022dc        0x2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100022f0        0x2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x100022de        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x100022ec       0x24 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100022f2        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x10002300       0x24 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10002310       0xae CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002324       0xae CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x100023be      0x112 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023d2      0x112 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x100024d0       0xbc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100024e4       0xbc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x1000258c       0xe2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1000266e        0x2 
- .text._etoa    0x10002670      0x414 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002a84      0x354 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100025a0       0xe2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10002682        0x2 
+ .text._etoa    0x10002684      0x414 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002a98      0x354 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002dd8      0x624 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002dec      0x624 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x100033fc       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100033fc                vfctprintf
- .text          0x1000341c       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003410       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003410                vfctprintf
+ .text          0x10003430       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x1000342c       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000342c                rom_func_lookup
+                0x10003440       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003440                rom_func_lookup
  .text.rom_data_lookup
-                0x1000343c       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000343c                rom_data_lookup
+                0x10003450       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003450                rom_data_lookup
  .text.rom_funcs_lookup
-                0x1000344c       0x36 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000344c                rom_funcs_lookup
- *fill*         0x10003482        0x2 
+                0x10003460       0x36 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003460                rom_funcs_lookup
+ *fill*         0x10003496        0x2 
  .text.__wrap___aeabi_idiv
-                0x10003484       0x50 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003484                __wrap___aeabi_idivmod
-                0x10003484                divmod_s32s32
-                0x10003484                div_s32s32
-                0x10003484                __wrap___aeabi_idiv
-                0x1000348c                divmod_s32s32_unsafe
-                0x100034b8                divmod_s32s32_savestate
+                0x10003498       0x50 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003498                __wrap___aeabi_idivmod
+                0x10003498                divmod_s32s32
+                0x10003498                div_s32s32
+                0x10003498                __wrap___aeabi_idiv
+                0x100034a0                divmod_s32s32_unsafe
+                0x100034cc                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100034d4       0x4c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100034d4                __wrap___aeabi_uidiv
-                0x100034d4                __wrap___aeabi_uidivmod
-                0x100034d4                div_u32u32
-                0x100034d4                divmod_u32u32
-                0x100034dc                divmod_u32u32_unsafe
-                0x10003504                divmod_u32u32_savestate
+                0x100034e8       0x4c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100034e8                __wrap___aeabi_uidiv
+                0x100034e8                __wrap___aeabi_uidivmod
+                0x100034e8                div_u32u32
+                0x100034e8                divmod_u32u32
+                0x100034f0                divmod_u32u32_unsafe
+                0x10003518                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003520      0x424 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003520                div_s64s64
-                0x10003520                divmod_s64s64
-                0x10003520                __wrap___aeabi_ldivmod
-                0x10003550                divmod_u64u64
-                0x10003550                div_u64u64
-                0x10003550                __wrap___aeabi_uldivmod
-                0x10003560                divmod_u64u64_savestate
-                0x10003580                divmod_s64s64_unsafe
-                0x10003608                divmod_u64u64_unsafe
+                0x10003534      0x424 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003534                div_s64s64
+                0x10003534                divmod_s64s64
+                0x10003534                __wrap___aeabi_ldivmod
+                0x10003564                divmod_u64u64
+                0x10003564                div_u64u64
+                0x10003564                __wrap___aeabi_uldivmod
+                0x10003574                divmod_u64u64_savestate
+                0x10003594                divmod_s64s64_unsafe
+                0x1000361c                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003944       0x60 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003944                __wrap___aeabi_drsub
-                0x1000394a                __wrap___aeabi_dsub
-                0x10003954                __wrap___aeabi_dadd
-                0x1000395e                __wrap___aeabi_ddiv
-                0x10003992                __wrap___aeabi_dmul
+                0x10003958       0x60 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003958                __wrap___aeabi_drsub
+                0x1000395e                __wrap___aeabi_dsub
+                0x10003968                __wrap___aeabi_dadd
+                0x10003972                __wrap___aeabi_ddiv
+                0x100039a6                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x100039a4       0x6c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039a4                __wrap___aeabi_cdrcmple
-                0x100039b4                __wrap___aeabi_cdcmpeq
-                0x100039b4                __wrap___aeabi_cdcmple
+                0x100039b8       0x6c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039b8                __wrap___aeabi_cdrcmple
+                0x100039c8                __wrap___aeabi_cdcmpeq
+                0x100039c8                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003a10        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a10                __wrap___aeabi_dcmplt
+                0x10003a24        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a24                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003a1c       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a1c                __wrap___aeabi_dcmple
+                0x10003a30       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a30                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003a2c       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a2c                __wrap___aeabi_dcmpge
+                0x10003a40       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a40                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003a3c        0xa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a3c                __wrap___aeabi_dcmpgt
+                0x10003a50        0xa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a50                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003a46       0x1c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a46                __wrap___aeabi_dcmpun
- *fill*         0x10003a62        0x2 
+                0x10003a5a       0x1c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a5a                __wrap___aeabi_dcmpun
+ *fill*         0x10003a76        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003a64       0x38 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a64                __wrap___aeabi_ui2d
-                0x10003a6c                __wrap___aeabi_i2d
+                0x10003a78       0x38 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a78                __wrap___aeabi_ui2d
+                0x10003a80                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003a9c       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a9c                double2int_z
-                0x10003a9c                __wrap___aeabi_d2iz
+                0x10003ab0       0x48 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ab0                double2int_z
+                0x10003ab0                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003ae4       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ae4                __wrap___aeabi_d2uiz
-                0x10003ae4                double2uint
+                0x10003af8       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003af8                __wrap___aeabi_d2uiz
+                0x10003af8                double2uint
  .text.missing_double_func_shim
-                0x10003af4        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003b08        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10003b00       0xcc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003b00                __aeabi_double_init
+                0x10003b14       0xcc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003b14                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003bcc       0x34 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003bcc                double_table_shim_on_use_helper
+                0x10003be0       0x34 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003be0                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10003c00       0x32 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003c00                __wrap___aeabi_lmul
- *fill*         0x10003c32        0x2 
+                0x10003c14       0x32 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10003c14                __wrap___aeabi_lmul
+ *fill*         0x10003c46        0x2 
  .text.missing_float_func_shim
-                0x10003c34        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003c48        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10003c40       0x88 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10003c40                __aeabi_float_init
- .text          0x10003cc8       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003cc8                __aeabi_mem_init
- .text.memcpy   0x10003cd8        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003cd8                __wrap_memcpy
-                0x10003cd8                __wrap___aeabi_memcpy
+                0x10003c54       0x88 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003c54                __aeabi_float_init
+ .text          0x10003cdc       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003cdc                __aeabi_mem_init
+ .text.memcpy   0x10003cec        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003cec                __wrap_memcpy
+                0x10003cec                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10003ce4        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10003cf2        0x2 
+                0x10003cf8        0xe CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10003d06        0x2 
  .text.stdio_out_chars_crlf
-                0x10003cf4       0x80 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003d08       0x80 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x10003d74       0x44 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003d88       0x44 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10003db8       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003dcc       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x10003dd8       0x5c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003dd8                stdout_serialize_begin
+                0x10003dec       0x5c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003dec                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x10003e34       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003e34                stdout_serialize_end
+                0x10003e48       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e48                stdout_serialize_end
  .text.stdio_put_string
-                0x10003e44       0x98 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e58       0x98 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x10003edc       0x2c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003edc                stdio_set_driver_enabled
+                0x10003ef0       0x2c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003ef0                stdio_set_driver_enabled
  .text.stdio_flush
-                0x10003f08       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f08                stdio_flush
+                0x10003f1c       0x20 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f1c                stdio_flush
  .text.__wrap_puts
-                0x10003f28       0x1e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f28                __wrap_puts
- *fill*         0x10003f46        0x2 
+                0x10003f3c       0x1e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f3c                __wrap_puts
+ *fill*         0x10003f5a        0x2 
  .text.__wrap_vprintf
-                0x10003f48       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f48                __wrap_vprintf
+                0x10003f5c       0x40 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f5c                __wrap_vprintf
  .text.__wrap_printf
-                0x10003f88       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f88                __wrap_printf
+                0x10003f9c       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f9c                __wrap_printf
  .text.stdio_init_all
-                0x10003fa0        0xa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fa0                stdio_init_all
- *fill*         0x10003faa        0x2 
+                0x10003fb4        0xa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fb4                stdio_init_all
+ *fill*         0x10003fbe        0x2 
  .text.stdio_uart_out_chars
-                0x10003fac       0x74 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003fc0       0x74 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10004020       0x80 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004020                stdio_uart_in_chars
+                0x10004034       0x80 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004034                stdio_uart_in_chars
  .text.on_uart_rx
-                0x100040a0       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100040b4       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x100040c8       0x8c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100040dc       0x8c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
-                0x10004154       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004154                stdio_uart_init_full
+                0x10004168       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004168                stdio_uart_init_full
  .text.stdio_uart_init
-                0x10004198       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004198                stdio_uart_init
- .text.strlen   0x100041c0       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x100041c0                strlen
+                0x100041ac       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100041ac                stdio_uart_init
+ .text.strlen   0x100041d4       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x100041d4                strlen
  *(.fini)
- .fini          0x1000421c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x1000421c                _fini
- .fini.__stub   0x10004220       0x40 linker stubs
+ .fini          0x10004230        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x10004230                _fini
+ *fill*         0x10004234        0x4 
+ .fini.__stub   0x10004238       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1760,264 +1761,264 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10004260        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004260                . = ALIGN (0x4)
+ .eh_frame      0x10004278        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004278                . = ALIGN (0x4)
 
-.glue_7         0x10004260        0x0
- .glue_7        0x10004260        0x0 linker stubs
+.glue_7         0x10004278        0x0
+ .glue_7        0x10004278        0x0 linker stubs
 
-.glue_7t        0x10004260        0x0
- .glue_7t       0x10004260        0x0 linker stubs
+.glue_7t        0x10004278        0x0
+ .glue_7t       0x10004278        0x0 linker stubs
 
-.vfp11_veneer   0x10004260        0x0
- .vfp11_veneer  0x10004260        0x0 linker stubs
+.vfp11_veneer   0x10004278        0x0
+ .vfp11_veneer  0x10004278        0x0 linker stubs
 
-.v4_bx          0x10004260        0x0
- .v4_bx         0x10004260        0x0 linker stubs
+.v4_bx          0x10004278        0x0
+ .v4_bx         0x10004278        0x0 linker stubs
 
-.iplt           0x10004260        0x0
- .iplt          0x10004260        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10004278        0x0
+ .iplt          0x10004278        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10004260     0x11d8
+.rodata         0x10004278     0x11d8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10004260       0x2f CMakeFiles/DisplayFases.dir/display_fases.c.obj
- *fill*         0x1000428f        0x1 
+                0x10004278       0x2f CMakeFiles/DisplayFases.dir/display_fases.c.obj
+ *fill*         0x100042a7        0x1 
  .rodata.make_branch.str1.4
-                0x10004290       0x9e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000432e        0x2 
+                0x100042a8       0x9e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004346        0x2 
  .rodata.insert_branch_and_link.str1.4
-                0x10004330       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004348       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x10004340       0x36 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004376        0x2 
+                0x10004358       0x36 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000438e        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x10004378       0xd9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004451        0x3 
+                0x10004390       0xd9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004469        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x10004454       0x3a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000448e        0x2 
+                0x1000446c       0x3a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100044a6        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x10004490       0x3a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044ca        0x2 
+                0x100044a8       0x3a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100044e2        0x2 
  .rodata.__func__.0
-                0x100044cc       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044e6        0x2 
+                0x100044e4       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100044fe        0x2 
  .rodata.__func__.1
-                0x100044e8       0x17 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044ff        0x1 
+                0x10004500       0x17 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004517        0x1 
  .rodata.__func__.2
-                0x10004500       0x13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004513        0x1 
+                0x10004518       0x13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000452b        0x1 
  .rodata.__func__.3
-                0x10004514        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000452c        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x10004520        0xf CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000452f        0x1 
+                0x10004538        0xf CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004547        0x1 
  .rodata.__func__.6
-                0x10004530       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000454a        0x2 
+                0x10004548       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004562        0x2 
  .rodata.str1.4
-                0x1000454c      0x151 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x1000469d        0x3 
+                0x10004564      0x151 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x100046b5        0x3 
  .rodata.__func__.1
-                0x100046a0        0xb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x100046ab        0x1 
+                0x100046b8        0xb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x100046c3        0x1 
  .rodata.__func__.3
-                0x100046ac       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100046c4       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.repeating_timer_callback.str1.4
-                0x100046c4       0x7c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100046dc       0x7c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.timer_pool_entry_comparator.str1.4
-                0x10004740       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004762        0x2 
+                0x10004758       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000477a        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x10004764       0xc6 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000482a        0x2 
+                0x1000477c       0xc6 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004842        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x1000482c       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004844       0x28 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x10004854       0x98 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000486c       0x98 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                 0x12c (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x100048ec       0x21 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000490d        0x3 
+                0x10004904       0x21 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004925        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x10004910       0x27 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004937        0x1 
+                0x10004928       0x27 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000494f        0x1 
  .rodata.sleep_until.str1.4
-                0x10004938       0x4d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004985        0x3 
+                0x10004950       0x4d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000499d        0x3 
  .rodata.__func__.1
-                0x10004988       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100049a0       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x100049a0       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049b5        0x3 
+                0x100049b8       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100049cd        0x3 
  .rodata.__func__.11
-                0x100049b8       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049d2        0x2 
+                0x100049d0       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100049ea        0x2 
  .rodata.__func__.12
-                0x100049d4        0xa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049de        0x2 
+                0x100049ec        0xa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100049f6        0x2 
  .rodata.__func__.3
-                0x100049e0       0x17 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049f7        0x1 
+                0x100049f8       0x17 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a0f        0x1 
  .rodata.__func__.4
-                0x100049f8       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a0a        0x2 
+                0x10004a10       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a22        0x2 
  .rodata.__func__.5
-                0x10004a0c        0xd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a19        0x3 
+                0x10004a24        0xd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a31        0x3 
  .rodata.__func__.6
-                0x10004a1c       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a2e        0x2 
+                0x10004a34       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a46        0x2 
  .rodata.__func__.7
-                0x10004a30        0xf CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a3f        0x1 
+                0x10004a48        0xf CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a57        0x1 
  .rodata.__func__.8
-                0x10004a40        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004a58        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x10004a4c       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a61        0x3 
+                0x10004a64       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a79        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x10004a64       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10004a7c       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.busy_wait_us.str1.4
-                0x10004a86       0x92 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004a86        0x2 
+                0x10004a9e       0x92 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004a9e        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x10004a88       0x96 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004b1e        0x2 
+                0x10004aa0       0x96 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004b36        0x2 
  .rodata.__func__.0
-                0x10004b20       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004b3a        0x2 
+                0x10004b38       0x1a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004b52        0x2 
  .rodata.__func__.1
-                0x10004b3c       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10004b54       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10004b51       0xc6 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004b51        0x3 
+                0x10004b69       0xc6 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004b69        0x3 
  .rodata.ph_remove_any_head.str1.4
-                0x10004b54       0xc0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004b6c       0xc0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0xd4 (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x10004c14       0x1e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c2c       0x1e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0x26 (size before relaxing)
- *fill*         0x10004c32        0x2 
+ *fill*         0x10004c4a        0x2 
  .rodata.__func__.0
-                0x10004c34       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c4c       0x18 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x10004c4c       0x13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004c5f        0x1 
+                0x10004c64       0x13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004c77        0x1 
  .rodata.__func__.2
-                0x10004c60       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004c72        0x2 
+                0x10004c78       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004c8a        0x2 
  .rodata.__func__.3
-                0x10004c74        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c8c        0xc CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x10004c80       0x88 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004c98       0x88 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.__func__.1
-                0x10004d08       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004d20       0x10 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10004d18      0x154 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10004d30      0x154 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .rodata.__func__.0
-                0x10004e6c        0x9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10004e75        0x3 
+                0x10004e84        0x9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x10004e8d        0x3 
  .rodata.__assert_func.str1.4
-                0x10004e78       0x3f CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004e90       0x3f CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x10004eb7        0x1 
+ *fill*         0x10004ecf        0x1 
  .rodata.runtime_init.str1.4
-                0x10004eb8       0x92 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f4a        0x2 
+                0x10004ed0       0x92 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004f62        0x2 
  .rodata.panic.str1.4
-                0x10004f4c       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f5e        0x2 
+                0x10004f64       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004f76        0x2 
  .rodata.__func__.2
-                0x10004f60        0xd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f6d        0x3 
- .rodata._ftoa.str1.4
-                0x10004f70       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004f78        0xd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  *fill*         0x10004f85        0x3 
+ .rodata._ftoa.str1.4
+                0x10004f88       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10004f9d        0x3 
  .rodata._vsnprintf
-                0x10004f88      0x1e0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004fa0      0x1e0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10005168       0x50 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10005180       0x50 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x100051b8       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100051d0       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x100051d0       0xcd CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x1000529d        0x3 
+                0x100051e8       0xcd CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x100052b5        0x3 
  .rodata.__func__.0
-                0x100052a0       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100052b8       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x100052b4        0x1 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100052cc        0x1 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x100052b4       0xab CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x1000535f        0x1 
+                0x100052cc       0xab CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x10005377        0x1 
  .rodata.__func__.0
-                0x10005360       0x13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x10005373        0x1 
+                0x10005378       0x13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x1000538b        0x1 
  .rodata.str1.4
-                0x10005374       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000538c       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x100053b8        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .rodata.__bi_75
-                0x100053c4        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .rodata.__bi_81
                 0x100053d0        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .rodata.__bi_75
+                0x100053dc        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .rodata.__bi_81
+                0x100053e8        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x100053dc       0x92 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100053f4       0x92 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x100053dc       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100053f1        0x3 
+                0x100053f4       0x15 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10005409        0x3 
  .rodata.crlf_str.2
-                0x100053f4        0x2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100053f6        0x2 
+                0x1000540c        0x2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1000540e        0x2 
  .rodata.str1.4
-                0x100053f8       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005410       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x10005424        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000543c        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10005430        0x8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10005438                . = ALIGN (0x4)
+                0x10005448        0x8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005450                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10005438                . = ALIGN (0x4)
+                0x10005450                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10005438                __exidx_start = .
+                0x10005450                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10005438                __exidx_end = .
-                0x10005438                . = ALIGN (0x4)
-                0x10005438                __binary_info_start = .
+                0x10005450                __exidx_end = .
+                0x10005450                . = ALIGN (0x4)
+                0x10005450                __binary_info_start = .
 
-.binary_info    0x10005438       0x24
+.binary_info    0x10005450       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x10005438        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
-                0x1000543c        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
-                0x10005440        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
-                0x10005444        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
-                0x10005448        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
-                0x1000544c        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr81
                 0x10005450        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr30
+                0x10005454        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr38
+                0x10005458        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr44
+                0x1000545c        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr50
+                0x10005460        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr75
+                0x10005464        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr81
+                0x10005468        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr33
-                0x10005454        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000546c        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr34
-                0x10005458        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x1000545c                __binary_info_end = .
+                0x10005470        0x4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005474                __binary_info_end = .
 
-.rel.dyn        0x1000545c        0x0
- .rel.iplt      0x1000545c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x1000545c                . = ALIGN (0x4)
+.rel.dyn        0x10005474        0x0
+ .rel.iplt      0x10005474        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10005474                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2026,7 +2027,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x20000000       0xc0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x294 load address 0x1000545c
+.data           0x200000c0      0x294 load address 0x10005474
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2119,29 +2120,29 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(.jcr)
                 0x20000354                . = ALIGN (0x4)
                 0x20000354                __data_end__ = .
-                0x1000545c                __etext = LOADADDR (.data)
+                0x10005474                __etext = LOADADDR (.data)
 
-.igot.plt       0x20000354        0x0 load address 0x100056f0
+.igot.plt       0x20000354        0x0 load address 0x10005708
  .igot.plt      0x20000354        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000354        0x0 load address 0x100056f0
+                0x20000354        0x0 load address 0x10005708
                 0x20000354                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x100056f0
+.scratch_x      0x20040000        0x0 load address 0x10005708
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x100056f0                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10005708                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x100056f0
+.scratch_y      0x20041000        0x0 load address 0x10005708
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x100056f0                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10005708                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000358      0x3d8
                 0x20000358                . = ALIGN (0x4)
@@ -2205,8 +2206,8 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x100056f0        0x0
-                0x100056f0                PROVIDE (__flash_binary_end = .)
+.flash_end      0x10005708        0x0
+                0x10005708                PROVIDE (__flash_binary_end = .)
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2261,7 +2262,7 @@ LOAD CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontrolad
 LOAD CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\royza\AppData\Local\Temp\ccLOUy8r.o
+LOAD C:\Users\royza\AppData\Local\Temp\ccD3UZmZ.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2352,7 +2353,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000570       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x0000059c       0x22 C:\Users\royza\AppData\Local\Temp\ccLOUy8r.o
+                0x0000059c       0x22 C:\Users\royza\AppData\Local\Temp\ccD3UZmZ.o
  .ARM.attributes
                 0x000005be       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2385,98 +2386,98 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_info     0x00000000    0x15fe8
- .debug_info    0x00000000      0xa85 CMakeFiles/DisplayFases.dir/display_fases.c.obj
- .debug_info    0x00000a85     0x187e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00002303      0x1e3 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x000024e6      0x6be CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00002ba4      0x58e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00003132     0x1c9e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00004dd0      0x1a4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00004f74     0x20d5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x00007049     0x4068 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000b0b1     0x13f0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000c4a1     0x123b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000d6dc      0xdd2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0000e4ae      0xfcf CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000f47d      0x51b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000f998      0x4ee CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0000fe86      0x1d8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0001005e     0x1053 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x000110b1     0x1a5f CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00012b10       0x22 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00012b32      0x27c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00012dae       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00012dd0       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00012df2      0x2fb CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x000130ed       0x26 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00013113       0x26 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00013139       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0001315b      0x2d8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00013433       0x22 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00013455       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00013477      0x2fb CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00013772     0x1827 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00014f99     0x104f CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_info     0x00000000    0x1604a
+ .debug_info    0x00000000      0xae7 CMakeFiles/DisplayFases.dir/display_fases.c.obj
+ .debug_info    0x00000ae7     0x187e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00002365      0x1e3 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00002548      0x6be CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00002c06      0x58e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00003194     0x1c9e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00004e32      0x1a4 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00004fd6     0x20d5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x000070ab     0x4068 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0000b113     0x13f0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000c503     0x123b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000d73e      0xdd2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000e510      0xfcf CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000f4df      0x51b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000f9fa      0x4ee CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000fee8      0x1d8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000100c0     0x1053 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00011113     0x1a5f CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00012b72       0x22 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00012b94      0x27c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00012e10       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00012e32       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00012e54      0x2fb CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0001314f       0x26 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x00013175       0x26 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0001319b       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x000131bd      0x2d8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x00013495       0x22 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x000134b7       0x22 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x000134d9      0x2fb CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000137d4     0x1827 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00014ffb     0x104f CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_abbrev   0x00000000     0x42ea
- .debug_abbrev  0x00000000      0x235 CMakeFiles/DisplayFases.dir/display_fases.c.obj
- .debug_abbrev  0x00000235      0x379 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x000005ae       0xeb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x00000699      0x2e9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00000982      0x21b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000b9d      0x4e7 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00001084      0x116 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x0000119a      0x397 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00001531      0x571 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x00001aa2      0x3b8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00001e5a      0x297 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x000020f1      0x31c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x0000240d      0x3c7 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x000027d4      0x1ea CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x000029be      0x1a8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00002b66      0x109 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00002c6f      0x4cb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x0000313a      0x384 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x000034be       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x000034d0      0x13b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x0000360b       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x0000361d       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x0000362f      0x196 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x000037c5       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x000037d9       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x000037ed       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x000037ff      0x18d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x0000398c       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x0000399e       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x000039b0       0xad CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00003a5d      0x4a5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00003f02      0x3e8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_abbrev   0x00000000     0x430b
+ .debug_abbrev  0x00000000      0x256 CMakeFiles/DisplayFases.dir/display_fases.c.obj
+ .debug_abbrev  0x00000256      0x379 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x000005cf       0xeb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x000006ba      0x2e9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x000009a3      0x21b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000bbe      0x4e7 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x000010a5      0x116 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x000011bb      0x397 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00001552      0x571 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00001ac3      0x3b8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00001e7b      0x297 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x00002112      0x31c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x0000242e      0x3c7 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x000027f5      0x1ea CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x000029df      0x1a8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x00002b87      0x109 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00002c90      0x4cb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x0000315b      0x384 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x000034df       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x000034f1      0x13b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000362c       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x0000363e       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00003650      0x196 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x000037e6       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x000037fa       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x0000380e       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x00003820      0x18d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x000039ad       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x000039bf       0x12 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x000039d1       0xad CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x00003a7e      0x4a5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00003f23      0x3e8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_loc      0x00000000     0xee6a
- .debug_loc     0x00000000      0x336 CMakeFiles/DisplayFases.dir/display_fases.c.obj
- .debug_loc     0x00000336     0x1237 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x0000156d       0xe9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x00001656      0x45f CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00001ab5      0x233 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00001ce8     0x13f5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x000030dd       0x60 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x0000313d     0x152e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x0000466b     0x31e5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x00007850      0xacb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x0000831b     0x1446 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x00009761      0x83b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x00009f9c      0x832 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000a7ce      0x310 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000aade      0x2ec CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0000adca       0x71 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000ae3b      0x674 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000b4af     0x2095 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000d544      0x1a1 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000d6e5       0x59 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000d73e       0x81 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000d7bf      0xe23 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000e5e2      0x888 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_loc      0x00000000     0xeec6
+ .debug_loc     0x00000000      0x392 CMakeFiles/DisplayFases.dir/display_fases.c.obj
+ .debug_loc     0x00000392     0x1237 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x000015c9       0xe9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x000016b2      0x45f CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00001b11      0x233 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001d44     0x13f5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x00003139       0x60 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00003199     0x152e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x000046c7     0x31e5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x000078ac      0xacb CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x00008377     0x1446 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x000097bd      0x83b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x00009ff8      0x832 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0000a82a      0x310 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000ab3a      0x2ec CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0000ae26       0x71 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000ae97      0x674 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000b50b     0x2095 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000d5a0      0x1a1 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000d741       0x59 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000d79a       0x81 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000d81b      0xe23 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000e63e      0x888 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_aranges  0x00000000      0xd90
  .debug_aranges
@@ -2575,104 +2576,104 @@ LOAD linker stubs
  .debug_ranges  0x00002d48      0x258 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_ranges  0x00002fa0      0x2b0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000     0xfa1c
- .debug_line    0x00000000      0x672 CMakeFiles/DisplayFases.dir/display_fases.c.obj
- .debug_line    0x00000672      0xe13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001485      0x2fd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001782      0x51e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001ca0      0x51b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000021bb     0x11bd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00003378      0x2d2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x0000364a     0x11e8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004832     0x1d71 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000065a3      0xda9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000734c      0x8fa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007c46      0xa67 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x000086ad      0xbb5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00009262      0x687 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000098e9      0x48a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00009d73      0x32e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000a0a1      0xce7 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000ad88     0x1249 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000bfd1      0x178 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000c149      0x285 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000c3ce      0x301 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000c6cf      0x451 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000cb20      0x408 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000cf28       0xc2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000cfea       0xc8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000d0b2      0x400 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000d4b2      0x3d0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000d882       0xf2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000d974      0x100 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000da74      0x240 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000dcb4     0x1099 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000ed4d      0xccf CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000     0xfb5d
+ .debug_line    0x00000000      0x7b3 CMakeFiles/DisplayFases.dir/display_fases.c.obj
+ .debug_line    0x000007b3      0xe13 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000015c6      0x2fd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x000018c3      0x51e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001de1      0x51b CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000022fc     0x11bd CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000034b9      0x2d2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000378b     0x11e8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004973     0x1d71 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000066e4      0xda9 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000748d      0x8fa CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007d87      0xa67 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x000087ee      0xbb5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000093a3      0x687 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00009a2a      0x48a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00009eb4      0x32e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000a1e2      0xce7 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000aec9     0x1249 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000c112      0x178 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000c28a      0x285 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000c50f      0x301 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000c810      0x451 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000cc61      0x408 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000d069       0xc2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000d12b       0xc8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000d1f3      0x400 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000d5f3      0x3d0 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000d9c3       0xf2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000dab5      0x100 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000dbb5      0x240 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000ddf5     0x1099 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000ee8e      0xccf CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_str      0x00000000     0x3fae
- .debug_str     0x00000000      0x50c CMakeFiles/DisplayFases.dir/display_fases.c.obj
-                                0x56a (size before relaxing)
- .debug_str     0x0000050c      0x621 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.debug_str      0x00000000     0x3fbb
+ .debug_str     0x00000000      0x509 CMakeFiles/DisplayFases.dir/display_fases.c.obj
+                                0x567 (size before relaxing)
+ .debug_str     0x00000509      0x621 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                                 0xa72 (size before relaxing)
- .debug_str     0x00000b2d       0xb2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_str     0x00000b2a       0xb2 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
                                 0x299 (size before relaxing)
- .debug_str     0x00000bdf      0x1e8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_str     0x00000bdc      0x1e8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
                                 0x3dd (size before relaxing)
- .debug_str     0x00000dc7      0x11d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00000dc4      0x11d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
                                 0x3c4 (size before relaxing)
- .debug_str     0x00000ee4      0x41e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00000ee1      0x41e CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                 0x842 (size before relaxing)
- .debug_str     0x00001302       0x8d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x000012ff       0x8d CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
                                 0x27a (size before relaxing)
- .debug_str     0x0000138f      0x290 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x0000138c      0x290 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                 0x66c (size before relaxing)
- .debug_str     0x0000161f      0x741 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x0000161c      0x741 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                 0xcce (size before relaxing)
- .debug_str     0x00001d60      0x17c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00001d5d      0x17c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
                                 0x796 (size before relaxing)
- .debug_str     0x00001edc      0x117 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00001ed9      0x117 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                 0x463 (size before relaxing)
- .debug_str     0x00001ff3      0x381 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00001ff0      0x381 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
                                 0x689 (size before relaxing)
- .debug_str     0x00002374      0x2d3 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00002371      0x2d3 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                                 0x733 (size before relaxing)
- .debug_str     0x00002647       0xb8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x00002644       0xb8 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                                 0x355 (size before relaxing)
- .debug_str     0x000026ff      0x150 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x000026fc      0x150 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
                                 0x39b (size before relaxing)
- .debug_str     0x0000284f       0x9c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x0000284c       0x9c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
                                 0x298 (size before relaxing)
- .debug_str     0x000028eb      0x30c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x000028e8      0x30c CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                 0x85b (size before relaxing)
- .debug_str     0x00002bf7      0x282 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00002bf4      0x292 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
                                 0x4f9 (size before relaxing)
- .debug_str     0x00002e79       0x86 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00002e86       0x86 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
                                  0xea (size before relaxing)
- .debug_str     0x00002eff       0xf5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00002f0c       0xf5 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
                                 0x2d3 (size before relaxing)
- .debug_str     0x00002ff4       0x72 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x00003001       0x72 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
                                  0xe4 (size before relaxing)
- .debug_str     0x00003066       0x76 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x00003073       0x76 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
                                  0xe8 (size before relaxing)
- .debug_str     0x000030dc       0xe7 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x000030e9       0xe7 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
                                 0x32b (size before relaxing)
- .debug_str     0x000031c3       0x7c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x000031d0       0x7c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
                                  0xee (size before relaxing)
- .debug_str     0x0000323f       0x81 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x0000324c       0x81 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
                                  0xf3 (size before relaxing)
- .debug_str     0x000032c0       0x74 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x000032cd       0x74 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
                                  0xe6 (size before relaxing)
- .debug_str     0x00003334       0xab CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x00003341       0xab CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                 0x313 (size before relaxing)
- .debug_str     0x000033df       0x78 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x000033ec       0x78 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                                  0xea (size before relaxing)
- .debug_str     0x00003457       0x75 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x00003464       0x75 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
                                  0xe7 (size before relaxing)
- .debug_str     0x000034cc      0x275 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x000034d9      0x275 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
                                 0x45b (size before relaxing)
- .debug_str     0x00003741      0x505 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x0000374e      0x505 CMakeFiles/DisplayFases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
                                 0xa32 (size before relaxing)
- .debug_str     0x00003c46      0x368 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_str     0x00003c53      0x368 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
                                 0x954 (size before relaxing)
 
 .debug_frame    0x00000000     0x1930

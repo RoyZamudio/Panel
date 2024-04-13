@@ -8,10 +8,9 @@
 #define BOTON_GPIO3 13 // Botón para la animación 'S'
 
 // Arreglos para definir las diferentes secuencias para cada botón
-int secLavar[4] = {0x01, 0x22, 0x14, 0x08};                             //Secuencia como en cascáda       
-int secEnjuagar[8] = {0x01, 0x02, 0x40, 0x10, 0x08, 0x04, 0x40, 0x20 };  // Secuencia de animación de infinito
-int secCentrifugar[6] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20};       // Secuencia de animación circular
-
+int secLavar[4] = {0x01, 0x22, 0x14, 0x08};                             // Secuencia como en cascada
+int secEnjuagar[8] = {0x01, 0x02, 0x40, 0x10, 0x08, 0x04, 0x40, 0x20};  // Secuencia de animación de infinito
+int secCentrifugar[6] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20};            // Secuencia de animación circular
 
 int main() {
     stdio_init_all();
@@ -37,32 +36,64 @@ int main() {
     gpio_set_dir(BOTON_GPIO3, GPIO_IN);
     gpio_pull_up(BOTON_GPIO3); // Activar pull-up en el botón
 
-    int indice1 = 0;
-    int indice2 = 0;
-    int indice3 = 0;
+    int boton_previo = 0; // Variable para rastrear el último botón presionado
+    int boton_actual = 0;  // Variable para rastrear el botón actual activo
+    bool ejecutando = false;    // Estado del modo de secuencia
 
     while (true) {
+        // Verificar si se ha presionado algún botón
         if (!gpio_get(BOTON_GPIO1)) {
-            // Botón de secuencia de lavar presionado
-            int32_t mascara = secLavar[indice1 % 4] << PRIMER_GPIO;
-            gpio_set_mask(mascara);      // Activar segmentos según la máscara
-            sleep_ms(250);               // Esperar un tiempo
-            gpio_clr_mask(mascara);      // Apagar segmentos
-            indice1++;                   // Avanzar al siguiente paso de la secuencia
+            boton_actual = 1;
         } else if (!gpio_get(BOTON_GPIO2)) {
-            // Botón de secuencia de enjuagar presionado
-            int32_t mascara = secEnjuagar[indice2 % 8] << PRIMER_GPIO;
-            gpio_set_mask(mascara);      // Activar segmentos según la máscara
-            sleep_ms(250);               // Esperar un tiempo
-            gpio_clr_mask(mascara);      // Apagar segmentos
-            indice2++;                   // Avanzar al siguiente paso de la secuencia
+            boton_actual = 2;
         } else if (!gpio_get(BOTON_GPIO3)) {
-            // Botón de secuencia de centrifugar presionado
-            int32_t mascara = secCentrifugar[indice3 % 6] << PRIMER_GPIO;
-            gpio_set_mask(mascara);      // Activar segmentos según la máscara
-            sleep_ms(250);               // Esperar un tiempo
-            gpio_clr_mask(mascara);      // Apagar segmentos
-            indice3++;                   // Avanzar al siguiente paso de la secuencia
+            boton_actual = 3;
+        }
+
+        // Cambiar la secuencia si se presiona un nuevo botón
+        if (boton_actual != boton_actual) {
+            boton_previo = boton_actual;
+            ejecutando = false; // Detener la secuencia actual
+            while (!gpio_get(boton_actual == 1 ? BOTON_GPIO1 : boton_actual == 2 ? BOTON_GPIO2 : BOTON_GPIO3)) {} // Esperar a que se suelte el botón
+        }
+
+        // Ejecutar la secuencia correspondiente si se está ejecutando
+        if (ejecutando) {
+            switch (boton_actual) {
+                case 1:
+                    for (int i = 0; i < 4; i++) {
+                        int32_t mascara = secLavar[i] << PRIMER_GPIO;
+                        gpio_set_mask(mascara);      // Activar segmentos según la máscara
+                        sleep_ms(250);               // Esperar un tiempo
+                        gpio_clr_mask(mascara);      // Apagar segmentos
+                    }
+                    break;
+
+                case 2:
+                    for (int i = 0; i < 8; i++) {
+                        int32_t mascara = secEnjuagar[i] << PRIMER_GPIO;
+                        gpio_set_mask(mascara);      // Activar segmentos según la máscara
+                        sleep_ms(250);               // Esperar un tiempo
+                        gpio_clr_mask(mascara);      // Apagar segmentos
+                    }
+                    break;
+
+                case 3:
+                    for (int i = 0; i < 6; i++) {
+                        int32_t mascara = secCentrifugar[i] << PRIMER_GPIO;
+                        gpio_set_mask(mascara);      // Activar segmentos según la máscara
+                        sleep_ms(250);               // Esperar un tiempo
+                        gpio_clr_mask(mascara);      // Apagar segmentos
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        } else {
+            // Si no se está ejecutando ninguna secuencia, mantener los segmentos apagados
+            gpio_clr_mask((1 << 7) - 1 << PRIMER_GPIO); // Apagar todos los segmentos
+            ejecutando = true; // Activar la secuencia para que se ejecute continuamente
         }
     }
 }
